@@ -1,0 +1,13 @@
+.welcome-msg {
+  background: #e8f5e9;
+  color: #2e7d32;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.welcome-msg.admin {
+  background: #ede7f6;
+  color: #4527a0;
+}
