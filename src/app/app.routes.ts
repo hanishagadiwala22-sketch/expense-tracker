@@ -3,8 +3,9 @@ import { SignupComponent } from './auth/signup/signup.component';
 import { LoginComponent } from './auth/login/login.component';
 import { UserDashboardComponent } from './user-dashboard/user-dashboard.component';
 import { AdminDashboardComponent } from './admin-dashboard/admin-dashboard.component';
-
+import { Demo} from './demo/demo';
 export const routes: Routes = [
+  { path: 'demo', component: Demo },
   { path: '', redirectTo: 'signup', pathMatch: 'full' },
 
   // 🔹 Authentication
